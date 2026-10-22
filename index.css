@@ -82,16 +82,21 @@ h1,h2,h3{
     font-family: "Special Elite", sans-serif;
     font-size: 1.4rem;
     color:#87CEEB;
-    margin-top: 1.5em;
+    margin: 1.5em auto;
     background-color: #031e37;
-    border-radius: 100em;
+    border-radius: 1.5px;
     padding: 1.5em;
+    width: 444px;
     
 }
 
 p {
     text-align: center;
-    font-family:";
+    font-family: "DM Mono", monospace;
+    background-color: #17334d;
+    color:#7eb8dc;
+    width: 444px;
+    margin: 0 auto;
 }
 
 
@@ -108,9 +113,16 @@ p {
         padding: 18px;
     }
 }
-
-#spongebob {
-    display:flex;
-
-
+#spongebob img{
+    display: inline-block;
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 200px;
+    width: 200px;
+    filter:brightness(45%);
+    object-fit: cover;
+    border-radius: 15px;
+   
 }
